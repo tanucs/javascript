@@ -1,0 +1,18 @@
+let obj ={
+harry:78,
+shubh:44,
+shivika:56,
+ritika:67,
+shiv:23
+}
+
+//For in Loop
+for(let a in obj){
+  console.log("Marks of" + a +"are" 
+ + obj[a])
+}
+
+//for of loop
+for(let b of "harry"){
+  console.log(b)
+}
