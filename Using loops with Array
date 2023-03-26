@@ -1,0 +1,23 @@
+//Using loops with Array
+
+let num=[3,5,1,2,4]
+
+//FOR LOOP
+/*for(let i=0;i<num.length;i++){
+//  console.log(num[i])
+}*/
+
+//FOR EACH LOOP
+/*num.forEach((element)=>{
+  console.log(element*element)
+}) */
+
+//for...of is a shortcut of for loop
+for(let i of num){
+  console.log(i)
+}
+
+//For..in
+for(let i in num){
+  console.log(num[i])
+}
